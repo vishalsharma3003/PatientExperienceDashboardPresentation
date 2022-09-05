@@ -2973,17 +2973,10 @@
       "checksum": "28905091318e5f5ea020ef946ee4514c"
     },
     "PatientExperienceDashboard.html": {
-<<<<<<< HEAD
-      "checksum": "85cfcb39450bead0027540d9896de3d8"
+      "checksum": "fe28a28e47ef7f7f3c825492c285fabd"
     },
     "PatientExperienceDashboard.Rmd": {
       "checksum": "55b1645c4cd0e629edf29ab006f5aff4"
-=======
-      "checksum": "94fed1745b482cf8b259f00fecc28fcb"
-    },
-    "PatientExperienceDashboard.Rmd": {
-      "checksum": "4c7878e117969fa7f9a0819936d6881e"
->>>>>>> 38d5e32c27abb73a5c9311b8474e078d22b762d1
     },
     "README.md": {
       "checksum": "4494b0406d5460b8cd934b8fc906faad"
