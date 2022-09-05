@@ -173,7 +173,7 @@ name: strengths2
 ## In terms of code
 
 * The modular structure of the application enhances scalability
-* Implementation of `golem` package provides robustness with different releases in packages and solves compatibility issues
+* Implementation of `golem` package provides robustness and simplification of creation, development, and deployment of a shiny application
 * The entire code follows standards and code of conduct which enables the rationalisation of code in multiple contributors
 * Every call to the function is referenced from its namespace, which will allow the app to identify the function at run time
 * Reusability of `ui` and `server` functions for example `mod_text_reactable_ui` & `mod_click_tables_ui` are used for both the cases *'What could be improved?'* & *'What did we do well?'*
@@ -456,6 +456,7 @@ name: improvements13
 * Sorting option available in datatables, but the option is not visible
 * `tryCatch()` can be used in `reactive` data frames to avoid any run time errors
 * Validation of input after a new file is uploaded
+* `groundhog` package can be to tackle the discrepancies in various dependencies of the application (http://datacolada.org/95)  
 
 ---
 name: improvements14
