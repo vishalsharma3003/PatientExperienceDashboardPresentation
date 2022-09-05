@@ -270,7 +270,9 @@ name: improvements5
 * The graph can be more granular (on month or quarter basis)
 * The graph can have the legends
 
-<a href="https://codepen.io/vishalsharma3003/full/bGMGmXY" rel="FFT Chart"><img src="./www/XBarFFT.PNG"  width="800" height="350"></a>
+<a href="https://codepen.io/vishalsharma3003/full/bGMGmXY"><img src="./www/XBarFFT.PNG"  width="800" height="350"></a>
+
+<!-- [![FFT Chart]("./www/XBarFFT.PNG")](https://codepen.io/vishalsharma3003/full/bGMGmXY) -->
 
 ---
 name: improvements6
