@@ -39,7 +39,7 @@ library(tidyr)
 # install.packages("remotes")
 # remotes::install_github("mitchelloharawild/icons")
 library(icons) # icons need to be loaded to view so run following code if not already done
-# icons::download_fontawesome()
+icons::download_fontawesome()
 
 # install.packages("devtools")
 #devtools::install_github("gadenbuie/xaringanExtra")
