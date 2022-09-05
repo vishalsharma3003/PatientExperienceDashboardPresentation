@@ -31,7 +31,7 @@ class: title-slide, left, bottom
 library(knitr)
 library(dplyr)
 library(kableExtra)
-install.packages(tidyr)
+install.packages("tidyr")
 library(tidyr)
 
 ### Packages not on CRAN ###
