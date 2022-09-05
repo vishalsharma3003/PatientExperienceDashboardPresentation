@@ -270,7 +270,11 @@ name: improvements5
 * The graph can be more granular (on month or quarter basis)
 * The graph can have the legends
 
+<<<<<<< HEAD
 <a href="https://codepen.io/vishalsharma3003/full/bGMGmXY"><img src="https://raw.githubusercontent.com/vishalsharma3003/PatientExperienceDashboardPresentation/main/www/XBarFFT.PNG"  width="800" height="350"></a>
+=======
+<a href="https://codepen.io/vishalsharma3003/full/bGMGmXY"><img src="./www/XBarFFT.PNG"  width="800" height="350"></a>
+>>>>>>> 38d5e32c27abb73a5c9311b8474e078d22b762d1
 
 <!-- [![FFT Chart]("./www/XBarFFT.PNG")](https://codepen.io/vishalsharma3003/full/bGMGmXY) -->
 
