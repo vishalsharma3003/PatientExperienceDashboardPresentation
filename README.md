@@ -1,4 +1,4 @@
-# PatientExperienceDashboardPresentation
+# Patient Experience Dashboard Presentation
 
 The patient experience dashboard is a part of [NHS Patient Experience Framework](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/215159/dh_132788.pdf).
 
