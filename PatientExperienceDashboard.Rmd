@@ -93,9 +93,11 @@ class: inverse
 
 5. [Improvements](#improvements)
 
-6. [References](#references)
+6. [Multilabel Classification](#multilabel)
 
-7. [Acknowledgement](#acknowledgment)
+7. [References](#references)
+
+8. [Acknowledgement](#acknowledgment)
 
 ---
 name: introduction
@@ -460,7 +462,9 @@ name: improvements13
 * Sorting option available in datatables, but the option is not visible
 * `tryCatch()` can be used in `reactive` data frames to avoid any run time errors
 * Validation of input after a new file is uploaded
-* `groundhog` package can be to tackle the discrepancies in various dependencies of the application (http://datacolada.org/95)  
+* `groundhog` package can be to tackle the discrepancies in various dependencies of the application (http://datacolada.org/95)
+* `profvis` package can be used for profiling the code to understand how the session is spending its time
+* Identification of functions can be done and then `memoise` package can be used to create memoised version of those functions
 
 ---
 name: improvements14
@@ -483,6 +487,20 @@ microbenchmark::microbenchmark(eval(DplyrExpression), eval(BaseRExpression), tim
 ```
 
 ---
+name: multilabel
+class: hide-logo
+
+# MULTILABEL CLASSIFICATION
+
+* Multilabel classification is a classification problem where multiple target labels can be assigned to each observation instead of only one like in multiclass classification.
+* For modelling visualisations, we can refer to https://distill.pub/ (For example: https://distill.pub/2021/gnn-intro/)
+* Sentiments identification and multilabel model (POC) has been created and can be accessed from 
+
+```{r sentiments_image, echo=FALSE, out.width="450px", out.height="400px", fig.align='center'}
+knitr::include_graphics("www/SentimentsProcess.PNG")
+```
+
+---
 
 name: references
 
@@ -496,6 +514,8 @@ name: references
 * https://www.clearpointstrategy.com/dashboards/patient-satisfaction-measurement-dashboard/
 * https://www.england.nhs.uk/nhsidentity/identity-guidelines/
 * https://towardsdatascience.com/a-complete-exploratory-data-analysis-and-visualization-for-text-data-29fb1b96fb6a
+* https://mlr.mlr-org.com/articles/tutorial/multilabel.html
+* https://distill.pub/
 
 ---
 class: inverse
