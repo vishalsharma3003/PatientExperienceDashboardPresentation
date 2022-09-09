@@ -494,7 +494,7 @@ class: hide-logo
 
 * Multilabel classification is a classification problem where multiple target labels can be assigned to each observation instead of only one like in multiclass classification.
 * For modelling visualisations, we can refer to https://distill.pub/ (For example: https://distill.pub/2021/gnn-intro/)
-* Sentiments identification and multilabel model (POC) has been created and can be accessed from 
+* Sentiments identification and multilabel model (POC) has been created and can be accessed from https://github.com/vishalsharma3003/PatientExperienceDashboardPresentation/blob/main/Sentiments.R
 
 ```{r sentiments_image, echo=FALSE, out.width="450px", out.height="400px", fig.align='center'}
 knitr::include_graphics("www/SentimentsProcess.PNG")
